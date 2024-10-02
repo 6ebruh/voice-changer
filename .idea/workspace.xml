@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69df1022-cca8-4204-9c51-febfff0e127d" name="Changes" comment="add" />
+    <list default="true" id="69df1022-cca8-4204-9c51-febfff0e127d" name="Changes" comment="add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_form.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "6ebruh"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/6ebruh/voice-changer.git",
+    "accountId": "d9a0c96b-2df8-4403-a003-7732bac83983"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -63,6 +78,7 @@
       <workItem from="1727876170346" duration="3782000" />
       <workItem from="1727880159692" duration="1293000" />
       <workItem from="1727896206510" duration="93000" />
+      <workItem from="1727896445942" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />

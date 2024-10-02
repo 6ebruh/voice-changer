@@ -14,13 +14,20 @@ def main_form(page: ft.Page):
 content = ft.Column(
     controls = [
         ft.Row(
-            controls = [
-                ft.Dropdown()
+            controls =[
+                ft.Dropdown(
+                    label="Выберите элемент",
+                    options=[
+                        ft.dropdown.Option("apple"),
+                        ft.dropdown.Option("banana"),
+                        ft.dropdown.Option("cherry")
+                    ]
+                )
             ]
         ),
         ft.Row(
             controls = [
-                ft.Slider(rotate=math.pi*3/2)
+                ft.Slider()
             ],
         )
     ]
