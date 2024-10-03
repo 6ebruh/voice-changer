@@ -1,8 +1,7 @@
-import math
-
 import flet as ft
 
-def main_form(page: ft.Page):
+
+def main(page: ft.Page):
     page.title = "Voice Changer"
     page.padding = 20
     page.window.height = 600
@@ -23,15 +22,11 @@ content = ft.Column(
                         ft.dropdown.Option("cherry")
                     ]
                 )
-            ]
-        ),
-        ft.Row(
-            controls = [
-                ft.Slider()
             ],
-        )
-    ]
+            vertical_alignment=ft.CrossAxisAlignment.CENTER,
+            alignment=ft.MainAxisAlignment.CENTER,
+        ),
+    ],
+    horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+    alignment=ft.MainAxisAlignment.CENTER,
 )
-
-
-ft.app(target=main_form)
